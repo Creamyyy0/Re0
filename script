@@ -1,0 +1,940 @@
+local ScreenGui = Instance.new("ScreenGui")
+local cock = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Walk = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+local Yield = Instance.new("TextButton")
+local btools = Instance.new("TextButton")
+local Backflip = Instance.new("TextButton")
+local Fakecaht = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
+local prisonlife = Instance.new("TextButton")
+local suqid = Instance.new("TextButton")
+local oldone = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+cock.Name = "cock"
+cock.Parent = ScreenGui
+cock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cock.BackgroundTransparency = 0.150
+cock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cock.Position = UDim2.new(0.0778790414, 0, 0.234803289, 0)
+cock.Size = UDim2.new(0, 572, 0, 503)
+cock.Active = true
+cock.Draggable = true
+
+TextLabel.Parent = cock
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 572, 0, 36)
+TextLabel.Font = Enum.Font.Jura
+TextLabel.Text = "UltimateGuiHub V.1.0 Premium"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Walk.Name = "Walk"
+Walk.Parent = cock
+Walk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walk.Position = UDim2.new(0.0576923043, 0, 0.178926438, 0)
+Walk.Size = UDim2.new(0, 113, 0, 43)
+Walk.Font = Enum.Font.Jura
+Walk.Text = "Walk speed Changer"
+Walk.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walk.TextScaled = true
+Walk.TextSize = 14.000
+Walk.TextWrapped = true
+Walk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Tfmfvs5N'),true))()
+end)
+
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = cock
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.Position = UDim2.new(0.270979017, 0, 0.178926438, 0)
+Aimbot.Size = UDim2.new(0, 113, 0, 43)
+Aimbot.Font = Enum.Font.Jura
+Aimbot.Text = "Arsenal Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14.000
+Aimbot.TextWrapped = true
+Aimbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+Yield.Name = "Yield"
+Yield.Parent = cock
+Yield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yield.Position = UDim2.new(0.482517481, 0, 0.178926438, 0)
+Yield.Size = UDim2.new(0, 113, 0, 43)
+Yield.Font = Enum.Font.Jura
+Yield.Text = "Inf Yield"
+Yield.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yield.TextScaled = true
+Yield.TextSize = 14.000
+Yield.TextWrapped = true
+Yield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+btools.Name = "btools"
+btools.Parent = cock
+btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btools.Position = UDim2.new(0.0576922894, 0, 0.294234574, 0)
+btools.Size = UDim2.new(0, 113, 0, 43)
+btools.Font = Enum.Font.Jura
+btools.Text = "Btools (nonfe)"
+btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+btools.TextScaled = true
+btools.TextSize = 14.000
+btools.TextWrapped = true
+btools.MouseButton1Down:connect(function()
+	Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 4
+end)
+Backflip.Name = "Backflip"
+Backflip.Parent = cock
+Backflip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Backflip.Position = UDim2.new(0.701048911, 0, 0.178926438, 0)
+Backflip.Size = UDim2.new(0, 113, 0, 43)
+Backflip.Font = Enum.Font.Jura
+Backflip.Text = "Backflip Flip"
+Backflip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Backflip.TextScaled = true
+Backflip.TextSize = 14.000
+Backflip.TextWrapped = true
+Backflip.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/PuPPARzW"),true))()
+end)
+
+Fakecaht.Name = "Fakecaht"
+Fakecaht.Parent = cock
+Fakecaht.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fakecaht.Position = UDim2.new(0.270978987, 0, 0.294234574, 0)
+Fakecaht.Size = UDim2.new(0, 113, 0, 43)
+Fakecaht.Font = Enum.Font.Jura
+Fakecaht.Text = "FakeChat"
+Fakecaht.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fakecaht.TextScaled = true
+Fakecaht.TextSize = 14.000
+Fakecaht.TextWrapped = true
+Fakecaht.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/uCS8tyQw"),true))()
+end)
+
+teleport.Name = "teleport"
+teleport.Parent = cock
+teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleport.Position = UDim2.new(0.482517451, 0, 0.294234574, 0)
+teleport.Size = UDim2.new(0, 113, 0, 43)
+teleport.Font = Enum.Font.Jura
+teleport.Text = "Click to Teleport"
+teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleport.TextScaled = true
+teleport.TextSize = 14.000
+teleport.TextWrapped = true
+teleport.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/iMKYkmcu"),true))()
+end)
+
+prisonlife.Name = "prison life"
+prisonlife.Parent = cock
+prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prisonlife.Position = UDim2.new(0.701048911, 0, 0.294234574, 0)
+prisonlife.Size = UDim2.new(0, 113, 0, 43)
+prisonlife.Font = Enum.Font.Jura
+prisonlife.Text = "Prison Life"
+prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.TextScaled = true
+prisonlife.TextSize = 14.000
+prisonlife.TextWrapped = true
+prisonlife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
+
+suqid.Name = "suqid"
+suqid.Parent = cock
+suqid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+suqid.Position = UDim2.new(0.0576922745, 0, 0.399602354, 0)
+suqid.Size = UDim2.new(0, 113, 0, 43)
+suqid.Font = Enum.Font.Jura
+suqid.Text = "Squid Game"
+suqid.TextColor3 = Color3.fromRGB(0, 0, 0)
+suqid.TextScaled = true
+suqid.TextSize = 14.000
+suqid.TextWrapped = true
+suqid.MouseButton1Down:connect(function()
+	for i,a in pairs(game:GetDescendants()) do
+		if a.Name == "SquidGameGui" then
+			a:Destroy()
+		end
+	end
+
+	local SquidGameGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local SquidGameLogo = Instance.new("ImageLabel")
+	local ScrollingFrame = Instance.new("ScrollingFrame")
+	local InstantTpRedGreenLight = Instance.new("TextButton")
+	local TpWinShape = Instance.new("TextButton")
+	local PullRope = Instance.new("TextButton")
+	local ToggeablePunish = Instance.new("TextButton")
+	local FakeGlassNamer = Instance.new("TextButton")
+	local PunchReach = Instance.new("TextButton")
+	local FixJPWS = Instance.new("TextButton")
+	local Platform = Instance.new("TextButton")
+	local active = true
+	local on = true
+
+	SquidGameGui.Name = "SquidGameGui"
+	SquidGameGui.Parent = game:WaitForChild("CoreGui")
+	SquidGameGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	SquidGameGui.ResetOnSpawn = false
+
+	Frame.Parent = SquidGameGui
+	Frame.Active = true
+	Frame.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	Frame.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	Frame.Position = UDim2.new(0.755256534, 0, 0.410684466, 0)
+	Frame.Size = UDim2.new(0, 194, 0, 61)
+	Frame.Draggable = true
+
+	SquidGameLogo.Name = "SquidGameLogo"
+	SquidGameLogo.Parent = Frame
+	SquidGameLogo.Active = true
+	SquidGameLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SquidGameLogo.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	SquidGameLogo.Position = UDim2.new(0.0635346472, 0, 0.0788446516, 0)
+	SquidGameLogo.Size = UDim2.new(0, 169, 0, 51)
+	SquidGameLogo.Image = "http://www.roblox.com/asset/?id=7572531023"
+
+	ScrollingFrame.Parent = Frame
+	ScrollingFrame.Active = true
+	ScrollingFrame.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	ScrollingFrame.BackgroundTransparency = 0.500
+	ScrollingFrame.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	ScrollingFrame.Position = UDim2.new(0, 0, 1, 0)
+	ScrollingFrame.Size = UDim2.new(0, 194, 0, 167)
+	ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
+	ScrollingFrame.CanvasSize = UDim2.new(0, 0, 10, 0)
+
+	InstantTpRedGreenLight.Name = "Instant Tp Red & Green Light"
+	InstantTpRedGreenLight.Parent = ScrollingFrame
+	InstantTpRedGreenLight.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	InstantTpRedGreenLight.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	InstantTpRedGreenLight.Position = UDim2.new(0.0618556701, 0, 0, 0)
+	InstantTpRedGreenLight.Size = UDim2.new(0, 169, 0, 32)
+	InstantTpRedGreenLight.Font = Enum.Font.SourceSans
+	InstantTpRedGreenLight.Text = "Red & Green Light TP"
+	InstantTpRedGreenLight.TextColor3 = Color3.fromRGB(255, 255, 255)
+	InstantTpRedGreenLight.TextSize = 18.000
+	InstantTpRedGreenLight.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+	InstantTpRedGreenLight.TextWrapped = true
+
+	TpWinShape.Name = "TpWinShape"
+	TpWinShape.Parent = ScrollingFrame
+	TpWinShape.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	TpWinShape.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	TpWinShape.Position = UDim2.new(0.0618556701, 0, 0.0688524395, 0)
+	TpWinShape.Size = UDim2.new(0, 169, 0, 32)
+	TpWinShape.Font = Enum.Font.SourceSans
+	TpWinShape.Text = "Shape Line Instant Win"
+	TpWinShape.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TpWinShape.TextSize = 18.000
+	TpWinShape.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	PullRope.Name = "PullRope"
+	PullRope.Parent = ScrollingFrame
+	PullRope.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	PullRope.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	PullRope.Position = UDim2.new(0.0618556701, 0, 0.137704879, 0)
+	PullRope.Size = UDim2.new(0, 169, 0, 32)
+	PullRope.Font = Enum.Font.SourceSans
+	PullRope.Text = "Toggle Rope Pull"
+	PullRope.TextColor3 = Color3.fromRGB(255, 255, 255)
+	PullRope.TextSize = 18.000
+	PullRope.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	ToggeablePunish.Name = "Toggeable Punish"
+	ToggeablePunish.Parent = ScrollingFrame
+	ToggeablePunish.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	ToggeablePunish.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	ToggeablePunish.Position = UDim2.new(0.0618556701, 0, 0.208196685, 0)
+	ToggeablePunish.Size = UDim2.new(0, 169, 0, 32)
+	ToggeablePunish.Font = Enum.Font.SourceSans
+	ToggeablePunish.Text = "Toggeable Punish"
+	ToggeablePunish.TextColor3 = Color3.fromRGB(255, 255, 255)
+	ToggeablePunish.TextSize = 18.000
+	ToggeablePunish.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	FakeGlassNamer.Name = "Fake Glass Namer"
+	FakeGlassNamer.Parent = ScrollingFrame
+	FakeGlassNamer.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	FakeGlassNamer.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	FakeGlassNamer.Position = UDim2.new(0.0618556701, 0, 0.275409788, 0)
+	FakeGlassNamer.Size = UDim2.new(0, 169, 0, 32)
+	FakeGlassNamer.Font = Enum.Font.SourceSans
+	FakeGlassNamer.Text = "Fake Glass Namer"
+	FakeGlassNamer.TextColor3 = Color3.fromRGB(255, 255, 255)
+	FakeGlassNamer.TextSize = 18.000
+	FakeGlassNamer.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	PunchReach.Name = "PunchReach"
+	PunchReach.Parent = ScrollingFrame
+	PunchReach.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	PunchReach.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	PunchReach.Position = UDim2.new(0.0618556701, 0, 0.480327815, 0)
+	PunchReach.Size = UDim2.new(0, 169, 0, 32)
+	PunchReach.Font = Enum.Font.SourceSans
+	PunchReach.Text = "Infinite Punch Reach"
+	PunchReach.TextColor3 = Color3.fromRGB(255, 255, 255)
+	PunchReach.TextSize = 18.000
+	PunchReach.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	FixJPWS.Name = "FixJP&WS"
+	FixJPWS.Parent = ScrollingFrame
+	FixJPWS.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	FixJPWS.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	FixJPWS.Position = UDim2.new(0.0618556701, 0, 0.413114697, 0)
+	FixJPWS.Size = UDim2.new(0, 169, 0, 32)
+	FixJPWS.Font = Enum.Font.SourceSans
+	FixJPWS.Text = "Fix Jump & Speed"
+	FixJPWS.TextColor3 = Color3.fromRGB(255, 255, 255)
+	FixJPWS.TextSize = 18.000
+	FixJPWS.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	Platform.Name = "Platform"
+	Platform.Parent = ScrollingFrame
+	Platform.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+	Platform.BorderColor3 = Color3.fromRGB(64, 64, 64)
+	Platform.Position = UDim2.new(0.0618556701, 0, 0.344262242, 0)
+	Platform.Size = UDim2.new(0, 169, 0, 32)
+	Platform.Font = Enum.Font.SourceSans
+	Platform.Text = "Platform Trolling"
+	Platform.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Platform.TextSize = 18.000
+	Platform.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+	InstantTpRedGreenLight.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-576.481506, 20.1353817, 304.144165, -0.707134247, 0, -0.707079291, 0, 1, 0, 0.707079291, 0, -0.707134247)
+	end)
+
+	TpWinShape.MouseButton1Down:connect(function()
+		for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+			if v.Name == "Star" or v.Name == "Circle" or v.Name == "Square" or v.Name == "Triangle" or v.Name == "Umbrella" then
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Part.CFrame
+			end
+		end
+	end)
+
+	PullRope.MouseButton1Click:Connect(function()
+		if not on then on = true
+			_G.ON = true
+			while _G.ON and wait(0.1) do
+				game:GetService("ReplicatedStorage").RE.Pull:FireServer()
+			end
+		else on = false
+			_G.ON = false
+			while _G.ON and wait(0.1) do
+				game:GetService("ReplicatedStorage").RE.Pull:FireServer()
+			end
+		end
+	end)
+
+	ToggeablePunish.MouseButton1Click:Connect(function()
+		if not active then active = true
+			game.Players.LocalPlayer.Character.Parent = nil
+		else active = false
+			game.Players.LocalPlayer.Character.Parent = workspace
+		end
+	end)
+
+	FakeGlassNamer.MouseButton1Down:connect(function()
+
+		for i,v in pairs(game:GetService("Workspace").Glass:GetDescendants()) do
+			if v.ClassName == "TouchTransmitter" then
+				local BillboardGui = Instance.new("BillboardGui")
+				local TextLabel = Instance.new("TextLabel")
+
+				BillboardGui.Parent = v.Parent
+				BillboardGui.AlwaysOnTop = true
+				BillboardGui.LightInfluence = 1
+				BillboardGui.Size = UDim2.new(0, 50, 0, 50)
+				BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+
+				TextLabel.Parent = BillboardGui
+				TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+				TextLabel.BackgroundTransparency = 1
+				TextLabel.Size = UDim2.new(1, 0, 1, 0)
+				TextLabel.Text = "FakeGlass"
+				TextLabel.TextColor3 = Color3.new(1, 0, 0)
+				TextLabel.TextScaled = true
+			end
+		end
+	end)
+
+	PunchReach.MouseButton1Down:connect(function()
+
+		-- Credits: https://v3rmillion.net/member.php?action=profile&uid=1594530
+
+		while wait() do
+			pcall(function()
+				for i, v in next, game.Players:GetChildren() do
+					if v.Character and v.Character:FindFirstChild"HumanoidRootPart" and v ~= game.Players.LocalPlayer then
+						local punch = game.Players.LocalPlayer.Character.Punch
+						firetouchinterest(punch.Handle, v.Character.HumanoidRootPart, 0)
+						firetouchinterest(punch.Handle, v.Character.HumanoidRootPart, 1)
+					end
+				end
+			end)
+		end
+	end)
+
+	FixJPWS.MouseButton1Down:connect(function()
+
+		game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 50
+		game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+
+	Platform.MouseButton1Down:connect(function()
+
+		local part = Instance.new("Part")
+		part.Parent = game.Workspace.Glass["1"].RealGlass;
+		part.CFrame = CFrame.new(-540.05, -150.2, -367.15);
+		part.Size = Vector3.new(100, 0.2, 225);
+		part.Transparency = 0.3;
+		part.Anchored = true;
+		part.CanCollide = true;
+		part.Material = "ForceField";
+	end)
+end)
+
+
+oldone.Name = "oldone"
+oldone.Parent = cock
+oldone.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oldone.Position = UDim2.new(0.270979017, 0, 0.399602324, 0)
+oldone.Size = UDim2.new(0, 359, 0, 43)
+oldone.Font = Enum.Font.Jura
+oldone.Text = "UltimateGuiHub V.1.0 (old)"
+oldone.TextColor3 = Color3.fromRGB(0, 0, 0)
+oldone.TextScaled = true
+oldone.TextSize = 14.000
+oldone.TextWrapped = true
+oldone.MouseButton1Down:connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local Misc = Instance.new("TextButton")
+	local Scripts = Instance.new("TextButton")
+	local MoreScript = Instance.new("TextButton")
+	local ScriptsTab = Instance.new("Frame")
+	local Shindo = Instance.new("TextButton")
+	local SpeedChanger = Instance.new("TextButton")
+	local ArsenalAimbot = Instance.new("TextButton")
+	local infiniteyield = Instance.new("TextButton")
+	local Btools = Instance.new("TextButton")
+	local co1 = Instance.new("TextButton")
+	local co2 = Instance.new("TextButton")
+	local co3 = Instance.new("TextButton")
+	local ChatBypasser = Instance.new("TextButton")
+	local TrollingGui = Instance.new("TextButton")
+	local co6 = Instance.new("TextButton")
+	local TextLabel = Instance.new("TextLabel")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local MiscTab = Instance.new("Frame")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local DiscordTab = Instance.new("Frame")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local Discord = Instance.new("TextButton")
+	local MoreScriptTab = Instance.new("Frame")
+	local TextLabel_6 = Instance.new("TextLabel")
+	local Raq = Instance.new("Frame")
+	local Login = Instance.new("TextButton")
+	local TextLabel_7 = Instance.new("TextLabel")
+	local User = Instance.new("TextBox")
+	local Pass = Instance.new("TextBox")
+
+	--Properties:
+
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	ScreenGui.ResetOnSpawn = false
+
+
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Frame.BackgroundTransparency = 0.250
+	Frame.Position = UDim2.new(0.0213903729, 0, 0.311084628, 0)
+	Frame.Size = UDim2.new(0, 478, 0, 316)
+	Frame.Visible = false
+	Frame.Active = true
+	Frame.Draggable = true
+
+	Misc.Name = "Misc"
+	Misc.Parent = Frame
+	Misc.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+	Misc.Position = UDim2.new(0.244769856, 0, 0, 0)
+	Misc.Size = UDim2.new(0, 107, 0, 35)
+	Misc.Font = Enum.Font.SourceSans
+	Misc.Text = "Misc"
+	Misc.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Misc.TextScaled = true
+	Misc.TextSize = 14.000
+	Misc.TextWrapped = true
+
+	Scripts.Name = "Scripts"
+	Scripts.Parent = Frame
+	Scripts.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+	Scripts.Position = UDim2.new(0.0167364012, 0, 0, 0)
+	Scripts.Size = UDim2.new(0, 96, 0, 35)
+	Scripts.Font = Enum.Font.SourceSans
+	Scripts.Text = "Scripts"
+	Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Scripts.TextScaled = true
+	Scripts.TextSize = 14.000
+	Scripts.TextWrapped = true
+
+	MoreScript.Name = "MoreScript"
+	MoreScript.Parent = Frame
+	MoreScript.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+	MoreScript.Position = UDim2.new(0.730125606, 0, 0, 0)
+	MoreScript.Size = UDim2.new(0, 118, 0, 35)
+	MoreScript.Font = Enum.Font.SourceSans
+	MoreScript.Text = "More Scripts(not completed)"
+	MoreScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+	MoreScript.TextScaled = true
+	MoreScript.TextSize = 14.000
+	MoreScript.TextWrapped = true
+
+	ScriptsTab.Name = "ScriptsTab"
+	ScriptsTab.Parent = Frame
+	ScriptsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	ScriptsTab.BackgroundTransparency = 1.000
+	ScriptsTab.Position = UDim2.new(0, 0, 0.110759497, 0)
+	ScriptsTab.Size = UDim2.new(0, 478, 0, 281)
+	ScriptsTab.Visible = false
+
+	Shindo.Name = "Shindo"
+	Shindo.Parent = ScriptsTab
+	Shindo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Shindo.Position = UDim2.new(0.297071129, 0, 0.231316745, 0)
+	Shindo.Size = UDim2.new(0, 96, 0, 19)
+	Shindo.Font = Enum.Font.SourceSans
+	Shindo.Text = "Shindo Life"
+	Shindo.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Shindo.TextSize = 14.000
+	Shindo.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+
+	SpeedChanger.Name = "SpeedChanger"
+	SpeedChanger.Parent = ScriptsTab
+	SpeedChanger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SpeedChanger.Position = UDim2.new(0.0460251048, 0, 0.366548061, 0)
+	SpeedChanger.Size = UDim2.new(0, 96, 0, 19)
+	SpeedChanger.Font = Enum.Font.SourceSans
+	SpeedChanger.Text = "Speed Changer"
+	SpeedChanger.TextColor3 = Color3.fromRGB(0, 0, 0)
+	SpeedChanger.TextSize = 14.000
+	SpeedChanger.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/Tfmfvs5N'),true))()
+	end)
+
+	ArsenalAimbot.Name = "ArsenalAimbot"
+	ArsenalAimbot.Parent = ScriptsTab
+	ArsenalAimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ArsenalAimbot.Position = UDim2.new(0.297071129, 0, 0.366548061, 0)
+	ArsenalAimbot.Size = UDim2.new(0, 96, 0, 19)
+	ArsenalAimbot.Font = Enum.Font.SourceSans
+	ArsenalAimbot.Text = "Arsenal AimBot"
+	ArsenalAimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ArsenalAimbot.TextSize = 14.000
+	ArsenalAimbot.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArsenalStuff/StuffHub/main/stuffhubpog.lua", true))()
+	end)
+
+	infiniteyield.Name = "infiniteyield"
+	infiniteyield.Parent = ScriptsTab
+	infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	infiniteyield.Position = UDim2.new(0.0460251048, 0, 0.231316745, 0)
+	infiniteyield.Size = UDim2.new(0, 96, 0, 19)
+	infiniteyield.Font = Enum.Font.SourceSans
+	infiniteyield.Text = "Infinite Yield"
+	infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+	infiniteyield.TextSize = 14.000
+	infiniteyield.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+
+	Btools.Name = "Btools"
+	Btools.Parent = ScriptsTab
+	Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Btools.Position = UDim2.new(0.297071129, 0, 0.501779377, 0)
+	Btools.Size = UDim2.new(0, 95, 0, 19)
+	Btools.Font = Enum.Font.SourceSans
+	Btools.Text = "Delete Btools(nonFE)"
+	Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Btools.TextScaled = true
+	Btools.TextSize = 14.000
+	Btools.TextWrapped = true
+	Btools.MouseButton1Down:connect(function()
+		Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 4
+	end)
+
+	co1.Name = "co1"
+	co1.Parent = ScriptsTab
+	co1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	co1.Position = UDim2.new(0.797071159, 0, 0.501779377, 0)
+	co1.Size = UDim2.new(0, 96, 0, 19)
+	co1.Font = Enum.Font.SourceSans
+	co1.Text = "Coming Soon!"
+	co1.TextColor3 = Color3.fromRGB(0, 0, 0)
+	co1.TextSize = 14.000
+
+	co2.Name = "co2"
+	co2.Parent = ScriptsTab
+	co2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	co2.Position = UDim2.new(0.797071159, 0, 0.366548061, 0)
+	co2.Size = UDim2.new(0, 96, 0, 19)
+	co2.Font = Enum.Font.SourceSans
+	co2.Text = "Coming Soon!"
+	co2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	co2.TextSize = 14.000
+
+	co3.Name = "co3"
+	co3.Parent = ScriptsTab
+	co3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	co3.Position = UDim2.new(0.797071159, 0, 0.231316745, 0)
+	co3.Size = UDim2.new(0, 96, 0, 19)
+	co3.Font = Enum.Font.SourceSans
+	co3.Text = "Coming Soon!"
+	co3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	co3.TextSize = 14.000
+
+	ChatBypasser.Name = "ChatBypasser"
+	ChatBypasser.Parent = ScriptsTab
+	ChatBypasser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ChatBypasser.Position = UDim2.new(0.550209224, 0, 0.231316745, 0)
+	ChatBypasser.Size = UDim2.new(0, 96, 0, 19)
+	ChatBypasser.Font = Enum.Font.SourceSans
+	ChatBypasser.Text = "Chat Bypasser"
+	ChatBypasser.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ChatBypasser.TextSize = 14.000
+	ChatBypasser.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+
+	TrollingGui.Name = "TrollingGui"
+	TrollingGui.Parent = ScriptsTab
+	TrollingGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TrollingGui.Position = UDim2.new(0.550209224, 0, 0.366548061, 0)
+	TrollingGui.Size = UDim2.new(0, 96, 0, 19)
+	TrollingGui.Font = Enum.Font.SourceSans
+	TrollingGui.Text = "Ultimate Trolling  OP AF"
+	TrollingGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TrollingGui.TextScaled = true
+	TrollingGui.TextSize = 14.000
+	TrollingGui.TextWrapped = true
+	TrollingGui.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
+	end)
+
+	co6.Name = "co6"
+	co6.Parent = ScriptsTab
+	co6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	co6.Position = UDim2.new(0.550209224, 0, 0.501779377, 0)
+	co6.Size = UDim2.new(0, 96, 0, 19)
+	co6.Font = Enum.Font.SourceSans
+	co6.Text = "Coming Soon!"
+	co6.TextColor3 = Color3.fromRGB(0, 0, 0)
+	co6.TextSize = 14.000
+
+	TextLabel.Parent = ScriptsTab
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.Position = UDim2.new(0, 0, 0.822064042, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = "do not use this exploit on da hood or crimanality"
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+
+	TextLabel_2.Parent = ScriptsTab
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.Position = UDim2.new(0.656903744, 0, 0.822064042, 0)
+	TextLabel_2.Size = UDim2.new(0, 141, 0, 50)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "also use an alt to exploit on roblox"
+	TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+
+	MiscTab.Name = "MiscTab"
+	MiscTab.Parent = Frame
+	MiscTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	MiscTab.BackgroundTransparency = 1.000
+	MiscTab.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	MiscTab.Position = UDim2.new(0, 0, 0.110759497, 0)
+	MiscTab.Size = UDim2.new(0, 478, 0, 281)
+	MiscTab.Visible = false
+
+	TextLabel_3.Parent = MiscTab
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.Position = UDim2.new(0.332635999, 0, 0.348754436, 0)
+	TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel_3.Font = Enum.Font.SourceSans
+	TextLabel_3.Text = "Next Update misc will have stuff in it"
+	TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_3.TextScaled = true
+	TextLabel_3.TextSize = 14.000
+	TextLabel_3.TextWrapped = true
+
+	DiscordTab.Name = "DiscordTab"
+	DiscordTab.Parent = Frame
+	DiscordTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	DiscordTab.BackgroundTransparency = 1.000
+	DiscordTab.Position = UDim2.new(0, 0, 0.110759497, 0)
+	DiscordTab.Size = UDim2.new(0, 478, 0, 281)
+	DiscordTab.Visible = false
+
+	TextLabel_4.Parent = DiscordTab
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+	TextLabel_4.Position = UDim2.new(0.177824274, 0, 0.416370094, 0)
+	TextLabel_4.Size = UDim2.new(0, 301, 0, 44)
+	TextLabel_4.Font = Enum.Font.SourceSans
+	TextLabel_4.Text = "discord.gg/3GS6YMGfzk"
+	TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 14.000
+	TextLabel_4.TextWrapped = true
+
+	TextLabel_5.Parent = DiscordTab
+	TextLabel_5.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+	TextLabel_5.Position = UDim2.new(0.286610872, 0, 0.238434151, 0)
+	TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel_5.Font = Enum.Font.SourceSans
+	TextLabel_5.Text = "Join my Discord to get future updates on the exploit"
+	TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_5.TextScaled = true
+	TextLabel_5.TextSize = 14.000
+	TextLabel_5.TextWrapped = true
+
+	Discord.Name = "Discord"
+	Discord.Parent = Frame
+	Discord.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+	Discord.Position = UDim2.new(0.493723929, 0, 0, 0)
+	Discord.Size = UDim2.new(0, 100, 0, 35)
+	Discord.Font = Enum.Font.SourceSans
+	Discord.Text = "Discord"
+	Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Discord.TextScaled = true
+	Discord.TextSize = 14.000
+	Discord.TextWrapped = true
+
+	MoreScriptTab.Name = "MoreScriptTab"
+	MoreScriptTab.Parent = Frame
+	MoreScriptTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MoreScriptTab.BackgroundTransparency = 1.000
+	MoreScriptTab.Position = UDim2.new(0, 0, 0.110759497, 0)
+	MoreScriptTab.Size = UDim2.new(0, 478, 0, 281)
+	MoreScriptTab.Visible = false
+
+	TextLabel_6.Parent = MoreScriptTab
+	TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_6.Position = UDim2.new(0.332635969, 0, 0.298932374, 0)
+	TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel_6.Font = Enum.Font.SourceSans
+	TextLabel_6.Text = "I SAID NOT COMPLETED"
+	TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_6.TextSize = 14.000
+
+	Raq.Name = "Raq"
+	Raq.Parent = ScreenGui
+	Raq.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Raq.Position = UDim2.new(0.0213903747, 0, 0.311084628, 0)
+	Raq.Size = UDim2.new(0, 478, 0, 316)
+
+	Login.Name = "Login"
+	Login.Parent = Raq
+	Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Login.Position = UDim2.new(0.26778242, 0, 0.509493709, 0)
+	Login.Size = UDim2.new(0, 200, 0, 50)
+	Login.Font = Enum.Font.SourceSans
+	Login.Text = "Login"
+	Login.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Login.TextScaled = true
+	Login.TextSize = 14.000
+	Login.TextWrapped = true
+
+	TextLabel_7.Parent = Raq
+	TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_7.Position = UDim2.new(0.265690386, 0, 0.841772139, 0)
+	TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel_7.Font = Enum.Font.SourceSans
+	TextLabel_7.Text = "get your login imformation in my discord"
+	TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_7.TextScaled = true
+	TextLabel_7.TextSize = 14.000
+	TextLabel_7.TextWrapped = true
+
+	User.Name = "User"
+	User.Parent = Raq
+	User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	User.Position = UDim2.new(0.26778242, 0, 0, 0)
+	User.Size = UDim2.new(0, 200, 0, 50)
+	User.Font = Enum.Font.SourceSans
+	User.Text = "Username"
+	User.TextColor3 = Color3.fromRGB(0, 0, 0)
+	User.TextScaled = true
+	User.TextSize = 14.000
+	User.TextWrapped = true
+
+	Pass.Name = "Pass"
+	Pass.Parent = Raq
+	Pass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Pass.Position = UDim2.new(0.265690356, 0, 0.25, 0)
+	Pass.Size = UDim2.new(0, 200, 0, 50)
+	Pass.Font = Enum.Font.SourceSans
+	Pass.Text = "Password"
+	Pass.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Pass.TextScaled = true
+	Pass.TextSize = 14.000
+	Pass.TextWrapped = true
+
+	-- Scripts:
+
+	local function GZDB_fake_script() -- Misc.LocalScript 
+		local script = Instance.new('LocalScript', Misc)
+
+		script.Parent.MouseButton1Down:connect(function()
+			script.Parent.Parent.ScriptsTab.Visible = false
+			script.Parent.Parent.MiscTab.Visible = true
+			script.Parent.Parent.DiscordTab.Visible = false
+			script.Parent.Parent.MoreScriptTab.Visible = false
+		end)
+	end
+	coroutine.wrap(GZDB_fake_script)()
+	local function HBMGGUL_fake_script() -- Scripts.LocalScript 
+		local script = Instance.new('LocalScript', Scripts)
+
+		script.Parent.MouseButton1Down:connect(function()
+			script.Parent.Parent.ScriptsTab.Visible = true
+			script.Parent.Parent.MiscTab.Visible = false
+			script.Parent.Parent.DiscordTab.Visible = false
+			script.Parent.Parent.MoreScriptTab.Visible = false
+		end)
+	end
+	coroutine.wrap(HBMGGUL_fake_script)()
+	local function TTRHH_fake_script() -- MoreScript.LocalScript 
+		local script = Instance.new('LocalScript', MoreScript)
+
+		script.Parent.MouseButton1Down:connect(function()
+			script.Parent.Parent.ScriptsTab.Visible = false
+			script.Parent.Parent.MiscTab.Visible = false
+			script.Parent.Parent.DiscordTab.Visible = false
+			script.Parent.Parent.MoreScriptTab.Visible = true
+		end)
+	end
+	coroutine.wrap(TTRHH_fake_script)()
+	local function EIHAJWU_fake_script() -- Discord.LocalScript 
+		local script = Instance.new('LocalScript', Discord)
+
+		script.Parent.MouseButton1Down:connect(function()
+			script.Parent.Parent.ScriptsTab.Visible = false
+			script.Parent.Parent.MiscTab.Visible = false
+			script.Parent.Parent.DiscordTab.Visible = true
+			script.Parent.Parent.MoreScriptTab.Visible = false
+		end)
+	end
+	coroutine.wrap(EIHAJWU_fake_script)()
+	local function EAIRMPK_fake_script() -- Login.LocalScript 
+		local script = Instance.new('LocalScript', Login)
+
+		local UserData = script.Parent.Parent.User -- this is the variable for the 'username' textbox. 
+		local button = script.Parent -- this is a variable for the Button.
+		local UserPass = script.Parent.Parent.Pass -- this is a variable for the 'Password' textbox
+		local End = script.Parent.Parent.Parent.Frame -- rename Hackz to ur frame u want to open after logging in.
+		button.MouseButton1Click:Connect(function() -- will run the script down below after clicking the button
+			if UserData.Text == "eznoobs" and UserPass.Text == "susc0m1" then -- change noob and 111 to a username and password u want
+				End.Visible = true  -- makes the hack frame visible after logging in.
+				wait(1) -- waits one second.
+				script.Parent.Parent.Visible = false -- makes the login frame invisible after logging in.
+			else -- if the pass or username is wrong it will run the script down below
+				button.Text = "Invalid Info" -- changes the text to invalid info
+				wait(0.5) -- waits 0,5 secs
+				button.Text = "Try again" -- changes the text to try again
+				wait(0.5) -- waits another 0,5 secs
+				button.Text = "Login" -- changes the text back to login
+			end -- ends the if statement
+		end) -- ends the button function
+
+
+		-- fully scripted by NTO EXPLOITS on youtube -- 
+	end
+	coroutine.wrap(EAIRMPK_fake_script)()
+
+end)
+
+TextLabel_2.Parent = cock
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00174822658, 0, 0.598409653, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 169)
+TextLabel_2.Font = Enum.Font.Jura
+TextLabel_2.Text = "Works with: "
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = cock
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.405594409, 0, 0.634194911, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Jura
+TextLabel_3.Text = "Synapse X"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = cock
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.405594409, 0, 0.733598471, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.Jura
+TextLabel_4.Text = "Krnl"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = cock
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.409090906, 0, 0.83300209, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.Jura
+TextLabel_5.Text = "Omega X"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
